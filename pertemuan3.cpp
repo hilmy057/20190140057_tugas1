@@ -19,3 +19,19 @@ string status2(double rata, double nil){
         return "Gagal";
 
 }
+
+int main(){
+    double nilM,nilB;
+    //double rata;
+    //string st;
+    cout << "masukan nilai matematika = ";
+    cin >> nilM;
+    cout << "masukan nilai bahasa indonesia = ";
+    cin >> nilB;
+    //rata = rerata(nilM,nilB);
+    //st = status(rata);
+    //cout << "status kelulusan = " << st;
+    //cout << "status kelulusan = " << status(rata);
+    cout << "status kelulusan = " << status(rerata(nilM,nilB));
+    return 0;
+}

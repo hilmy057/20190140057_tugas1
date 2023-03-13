@@ -5,10 +5,11 @@ double rerata(double a, double b){
     return (a+b)/2;
 }
 
-string status(double rata){
+string status(double rata)
+{
     if (rata >= 60)
         return "Lulus";
-    else`
+    else
         return "Gagal";
 }
 
